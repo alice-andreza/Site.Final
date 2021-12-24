@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    background-color:#f7a8df;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+}
+header{
+    background-color: rgb(80, 52, 99);
+    padding: 10px 0;
+    animation: rubi 2s ease infinite alternate;
+}
+@keyframes rubi{
+    0%{
+        background-color: rgba(207, 10, 214, 0.883);}
+    50%{
+        background-color:rgb(236, 195, 236);
+    }
+    100%{
+        background-color: rgb(100, 3, 104);
+    }
+    }
+li{
+    background-color:rgb(135, 76, 243);
+    padding: 10px;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#título-principal{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: black;
+}
+.categorias img{
+    width: 400px;
+    
+}
+main{
+    margin: 10px  50px;
+}
+.categorias{
+    margin: 50px 15px;
+}
+.categorias p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    float:inline-start;
+    text-align: center;
+}
+.categorias h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    font-size: 25px;
+}
+footer{
+    background-color: rgb(61, 1, 88);
+    padding: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.categorias h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+}
+section{
+    background-color: rgb(88, 4, 128);
+    margin: 0px;
+    width: 1200px;
+    padding: 10px 0px;
+}
+.categorias h4{
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+nav li{
+    background-color: rgb(125, 19, 224);
+    padding: 15px 50px;
+    border-radius: 15px;
+    transition: all 1s cubic-bezier(.62,.85,.85,.49) 0s;
+    cursor: pointer;
+}
+nav li:hover{
+    background-color:#d03ae4;
+    font-size: 150%;
+    border-radius: 50%;
+}
+nav a:link{
+    text-decoration: none;
+    color: black;
+}
+nav a:visited{
+    color: white;
+}
+#título-principal{
+    transition: all 1s ease 0s;
+}
+#título-principal:hover{
+    animation: destaca 1s ease 0s infinite alternate;
+}
+@keyframes destaca {
+    from{
+        transform: scale(1) rotateX(0deg);
+    }
+    to{
+        transform: scale(2) rotateX(180deg);
+    }
+}
+a:link{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+a:visited{
+    color: blueviolet;
+}
